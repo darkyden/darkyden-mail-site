@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Darkyden Mail is a personal, local Gmail status integration for a Gentoo Linux dwm desktop.">
+  <title>Darkyden Mail — Local Gmail status for dwm</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #10141c; color: #e7edf7; }
+    * { box-sizing: border-box; }
+    body { margin: 0; line-height: 1.65; }
+    main { max-width: 760px; margin: 9vh auto; padding: 0 24px; }
+    .eyebrow { color: #8eb9ff; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; }
+    h1 { font-size: clamp(2.5rem, 7vw, 4rem); line-height: 1.12; margin: .3em 0; }
+    h2 { margin-top: 2rem; }
+    p, li { color: #c2ccdb; }
+    a { color: #9fc8ff; }
+    .panel { border: 1px solid #344258; border-radius: 12px; padding: 1rem 1.3rem; margin: 2rem 0; background: #18202d; }
+    footer { border-top: 1px solid #344258; margin-top: 3rem; padding-top: 1rem; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">Gentoo Linux · dwm · Local-first</p>
+    <h1>Darkyden Mail</h1>
+    <p>A personal Gmail status integration for the <a href="https://dwm.suckless.org/">dwm</a> window manager on Gentoo Linux.</p>
+    <div class="panel">
+      <h2>What it does</h2>
+      <p>Darkyden Mail uses the Gmail API with read-only authorization to retrieve mailbox information such as unread counts and message subjects. It displays a compact status in the local dwm bar and lets the user open the corresponding Gmail inbox in their browser.</p>
+    </div>
+    <h2>Designed to stay local</h2>
+    <ul>
+      <li>Personal desktop utility, not a hosted email service.</li>
+      <li>OAuth authorization and Gmail API requests run on the user's own computer.</li>
+      <li>OAuth credentials and tokens are kept locally and are not published on this website.</li>
+      <li>This website contains no analytics scripts, advertising trackers, or external JavaScript.</li>
+    </ul>
+    <h2>Privacy and contact</h2>
+    <p>Read the <a href="privacy.html">Privacy Policy</a> for details about Gmail data access, storage, retention, and revoking access.</p>
+    <p>Contact: <a href="mailto:darkyden@gmail.com">darkyden@gmail.com</a></p>
+    <footer>Darkyden Mail · Personal open-source desktop project · <a href="https://github.com/darkyden/darkyden-mail-site">Website source</a></footer>
+  </main>
+</body>
+</html>
